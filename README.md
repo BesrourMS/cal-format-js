@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/besrourms/ZodiacSigns/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/besrourms/cal-format-js/blob/main/LICENSE)
 [![](https://data.jsdelivr.com/v1/package/gh/besrourms/cal-format-js/badge)](https://www.jsdelivr.com/package/gh/besrourms/cal-format-js)
 
 # cal-format-js
