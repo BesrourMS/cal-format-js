@@ -3,13 +3,13 @@ class Calendars {
 		// Check if the input day is a valid date
 		const parsedDate = Date.parse(day);
 		if (!isNaN(parsedDate)) {
-			// Create a single Locale instance instead of creating it multiple times
+			// Create a Locale instance instead
 			const baseLocale = new Intl.Locale(lang + '-' + country);
 
 			// Initialize an object to store formatted dates
 			const formattedDates = {};
 
-			// Iterate through available calendars directly
+			// Iterate through available calendars
 			for (const calendar of baseLocale.calendars) {
 				// Combine locale and calendar options
 				const locale = new Intl.Locale(baseLocale.language + '-' + baseLocale.region + '-u-ca-' + calendar);
